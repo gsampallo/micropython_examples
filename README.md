@@ -9,3 +9,10 @@ Cada que vez que se presiona el boton se publica en el servidor broker; los dato
 MQTT - Subscribe (dentro de la carpeta mqtt_subscribe)
 En esta oportunidad tenemos el ejemplo de como recibir información desde otro dispositivo IoT hacia el nodemcu por medio de mqtt.
 El dispositivo que se utiliza para transmitir datos es un modulo de temperatura y humedad dht con un esp8266 (esp-01) pueden encontrar el codigo aca: https://github.com/gsampallo/mqtt_modulodht11
+
+Control de Motor DC (dentro de la carpeta motor_driver)
+Como controlar la direccion de un motor DC con micropython sin necesidad de una libreria extra.
+Se conecta segun el siguiente diagrama:
+
+![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/motor_driver/motor_python.png "Diagrama")
+
