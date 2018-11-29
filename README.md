@@ -16,3 +16,5 @@ Se conecta segun el siguiente diagrama:
 
 ![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/motor_driver/motor_python.png "Diagrama")
 
+Controlar el Motor DC con MQTT (dentro de la carpeta mqtt_motor_driver)
+Determina la direccion del giro del motor en base al mensaje que reciba desde un servidor broker. Utiliza la misma conexion que el ejemplo anterior.
