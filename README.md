@@ -18,3 +18,11 @@ Se conecta segun el siguiente diagrama:
 
 Controlar el Motor DC con MQTT (dentro de la carpeta mqtt_motor_driver)
 Determina la direccion del giro del motor en base al mensaje que reciba desde un servidor broker. Utiliza la misma conexion que el ejemplo anterior.
+
+MCP23017 - Expansor de IO
+
+Utilizamos el chip MCP23017 para extender hasta 16 IO digitales en el NodeMCU. Para ello utilizamos la libreria https://github.com/ShrimpingIt/micropython-mcp230xx donde ya se encuentran implementados los metodos para usar el chip.
+Se conecta segun el siguiente esquema:
+![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/mcp23017/micropython_mcp23017.jpg "Diagrama")
+
+Dentro de la carpeta mcp23017 se encuentra el codigo del ejemplo.
