@@ -30,7 +30,7 @@ Dentro de la carpeta mcp23017 se encuentra el codigo del ejemplo.
 Display de 7 segmentso con MCP23017
 
 Con los beneficios que nos otorga el chip MCP23017, podemos manejar dos display de 7 segmentos sin problema, se conecta de la siguiente manera:
-![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/\mcp23017_7segment/mcp23017_7segmentos.jpg "Diagrama")
+![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/mcp23017_7segment/mcp23017_7segmentos.jpg "Diagrama")
 
 Luego creamos un array de elementos para cada display donde indicamos que pin es necesario encender para mostrar cada numero.
 Por ejemplo, para el nro. de 2 sera necesario activar los pins [5,4,7,8,9]; esto puede variar si cambia la forma de conexion.
