@@ -34,3 +34,9 @@ Con los beneficios que nos otorga el chip MCP23017, podemos manejar dos display 
 
 Luego creamos un array de elementos para cada display donde indicamos que pin es necesario encender para mostrar cada numero.
 Por ejemplo, para el nro. de 2 sera necesario activar los pins [5,4,7,8,9]; esto puede variar si cambia la forma de conexion.
+
+LCD
+
+Conectar los pines muy sencillo; SCL del display va a D1 y SDA a D2; el display esta conectado a una fuente externa de 5v, tener en cuenta el comun del GND.
+La libreria que se utilizo es https://github.com/dhylands/python_lcd
+
