@@ -42,4 +42,12 @@ La libreria que se utilizo es https://github.com/dhylands/python_lcd
 
 ## MOTORES PASO A PASO
 Dentro de la carpeta stepper_motor se puede encontrar el ejemplo. Se utiliza el driver A4988 para controlar un motor paso a paso, realizando un giro en cada dirección.
-![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/stepper_motor/stepper_motor.jpg "Diagrama")
+
+
+## Shitf Register
+
+El esquema de conectarlo a continuacion:
+
+![alt text](https://raw.githubusercontent.com/gsampallo/micropython_examples/master/shiftregister/shiftregister.jpg "Diagrama")
+
+Dentro de la carpeta shiftregister se encuentra el ejemplo.
